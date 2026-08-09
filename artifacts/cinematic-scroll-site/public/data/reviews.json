@@ -1,0 +1,103 @@
+[
+  {
+    "init": "S",
+    "initBg": "#2e2344",
+    "initColor": "#7b2cbf",
+    "verBg": "#2e2344",
+    "verColor": "#7b2cbf",
+    "name": "Sakib Ahmed",
+    "stars": 5,
+    "text": "Speed boost and aim lock are game changers. The UI is so clean and easy to use.",
+    "id": "static-rev-0",
+    "isFirestore": false
+  },
+  {
+    "init": "R",
+    "initBg": "#0c3e3f",
+    "initColor": "#088689",
+    "verBg": "#0c3e3f",
+    "verColor": "#088689",
+    "name": "Rakib Hasan",
+    "stars": 5,
+    "text": "Best mod panel I've ever used! The drag headshot feature is insane. Anti-ban works perfectly.",
+    "id": "static-rev-1",
+    "isFirestore": false
+  },
+  {
+    "init": "A",
+    "initBg": "#1a2e3f",
+    "initColor": "#2790ff",
+    "verBg": "#1a2e3f",
+    "verColor": "#2790ff",
+    "name": "Arif Khan",
+    "stars": 5,
+    "text": "Amazing features! Color holograms make spotting enemies so much easier. Highly recommended.",
+    "id": "static-rev-2",
+    "isFirestore": false
+  },
+  {
+    "init": "M",
+    "initBg": "#3d1f30",
+    "initColor": "#eb29a4",
+    "verBg": "#3d1f30",
+    "verColor": "#eb29a4",
+    "name": "Mehedi Hasan",
+    "stars": 4,
+    "text": "ESP Radar is the best feature. Always know where enemies are. Great tool!",
+    "id": "static-rev-3",
+    "isFirestore": false
+  },
+  {
+    "init": "T",
+    "initBg": "#233d28",
+    "initColor": "#16CF83",
+    "verBg": "#233d28",
+    "verColor": "#16CF83",
+    "name": "Tanvir Islam",
+    "stars": 5,
+    "text": "Unbelievable smoothness! KAC features work flawlessly without any lag or frame drops.",
+    "id": "static-rev-4",
+    "isFirestore": false
+  },
+  {
+    "init": "N",
+    "initBg": "#3d341a",
+    "initColor": "#FFB319",
+    "verBg": "#3d341a",
+    "verColor": "#FFB319",
+    "name": "Nayeem Chowdhury",
+    "stars": 5,
+    "text": "Safe and 100% undetected. The setup was instant and customer support is awesome.",
+    "id": "static-rev-5",
+    "isFirestore": false
+  },
+  {
+    "init": "F",
+    "initBg": "#1a393d",
+    "initColor": "#00E5D1",
+    "verBg": "#1a393d",
+    "verColor": "#00E5D1",
+    "name": "Fahim Hossain",
+    "stars": 5,
+    "text": "Headshot percentage went straight to 95%! Very clean interface with full dark/light theme support.",
+    "id": "static-rev-6",
+    "isFirestore": false
+  },
+  {
+    "id": "tdbHDNZKlkLerOMBvGkV",
+    "isFirestore": true,
+    "photo": "https://lh3.googleusercontent.com/a/ACg8ocJF-f4TbjQSGYIDWdN-tyuhfPaK4tcduKBoEjNLRligYLrCzq8=s96-c",
+    "createdAt": "2026-08-01T14:31:44.501Z",
+    "verColor": "#16CF83",
+    "initBg": "rgba(123, 44, 191, 0.15)",
+    "email": "kayesahmmed00@gmail.com",
+    "verBg": "rgba(22, 207, 131, 0.15)",
+    "stars": 5,
+    "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJF-f4TbjQSGYIDWdN-tyuhfPaK4tcduKBoEjNLRligYLrCzq8=s96-c",
+    "init": "K",
+    "uid": "GEWiZGgCaxWasmOKvVQL0aFvvfH2",
+    "text": "hi",
+    "initColor": "#7B2CBF",
+    "name": "Kayes Ahmmed"
+  }
+]

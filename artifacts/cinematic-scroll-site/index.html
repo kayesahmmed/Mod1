@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta id="viewport-meta" name="viewport" content="width=980, user-scalable=no" />
+    <script>
+      (function() {
+        function updateViewport() {
+          var width = window.screen.width;
+          var screenWidth = Math.min(window.screen.width, window.screen.height);
+          if (window.orientation === 90 || window.orientation === -90) {
+            screenWidth = Math.max(window.screen.width, window.screen.height);
+          }
+          var scale = screenWidth / 980;
+          var meta = document.getElementById('viewport-meta');
+          if (meta) {
+            if (scale < 1) {
+              meta.setAttribute('content', 'width=980, initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no, shrink-to-fit=no');
+            } else {
+              meta.setAttribute('content', 'width=980, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no');
+            }
+          }
+        }
+        updateViewport();
+        window.addEventListener('orientationchange', updateViewport);
+        window.addEventListener('resize', updateViewport);
+      })();
+    </script>
+    <!-- Primary Meta Tags -->
+    <title>ModX Lab</title>
+    <meta name="title" content="ModX Lab" />
+    <meta
+      name="description"
+      content="The official website of the ModX Lab YouTube Channel. Access our exclusive video tutorial resources, premium apps, and files. Join our community to ask questions, explore features, and share your valuable reviews!"
+    />
+
+    <!-- Open Graph / Facebook / WhatsApp / Telegram / Messenger -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mod-x-lab.vercel.app/" />
+    <meta property="og:site_name" content="ModX Lab" />
+    <meta property="og:title" content="ModX Lab" />
+    <meta
+      property="og:description"
+      content="The official website of the ModX Lab YouTube Channel. Access our exclusive video tutorial resources, premium apps, and files. Join our community to ask questions, explore features, and share your valuable reviews!"
+    />
+    <meta property="og:image" content="https://mod-x-lab.vercel.app/og-image.jpg" />
+    <meta property="og:image:url" content="https://mod-x-lab.vercel.app/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://mod-x-lab.vercel.app/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ModX Lab Logo" />
+    <link rel="image_src" href="https://mod-x-lab.vercel.app/og-image.jpg" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://mod-x-lab.vercel.app/" />
+    <meta name="twitter:title" content="ModX Lab" />
+    <meta
+      name="twitter:description"
+      content="The official website of the ModX Lab YouTube Channel. Access our exclusive video tutorial resources, premium apps, and files. Join our community to ask questions, explore features, and share your valuable reviews!"
+    />
+    <meta name="twitter:image" content="https://mod-x-lab.vercel.app/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/website-logo.png" />
+    <link rel="apple-touch-icon" href="/website-logo.png" />
+    <link rel="canonical" href="https://mod-x-lab.vercel.app/" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ModX Lab",
+      "url": "https://mod-x-lab.vercel.app/",
+      "description": "The official website of the ModX Lab YouTube Channel. Access our exclusive video tutorial resources, premium apps, and files.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://mod-x-lab.vercel.app/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <style>
+      html, body {
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-overflow-scrolling: touch;
+      }
+      #root { 
+        min-height: 100%;
+      }
+    </style>
+  <script src="https://accounts.google.com/gsi/client" async defer></script></head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

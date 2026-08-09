@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Cinematic Scroll Website"
+description = "The uploaded website preserved exactly as provided, with a scroll-driven 3D frame animation added using the supplied video frames."
+version = "1.0.0"
+id = "artifacts/cinematic-scroll-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22859
+
+[services.development]
+run = "pnpm --filter @workspace/cinematic-scroll-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cinematic-scroll-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cinematic-scroll-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22859"
+BASE_PATH = "/"

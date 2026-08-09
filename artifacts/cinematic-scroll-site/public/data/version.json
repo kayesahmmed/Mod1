@@ -1,0 +1,18 @@
+{
+  "version": "1.0.4",
+  "updatedAt": "2026-08-04T22:30:00.000Z",
+  "versions": {
+    "settings": "1.0.1",
+    "downloads": "1.0.2",
+    "faqs": "1.0.1",
+    "hero": "1.0.0",
+    "banner": "1.0.0",
+    "features": "1.0.0",
+    "tutorials": "1.0.0",
+    "categories": "1.0.0",
+    "changelog": "1.0.0",
+    "nav": "1.0.1",
+    "reviews": "1.0.3",
+    "questions": "1.0.1"
+  }
+}

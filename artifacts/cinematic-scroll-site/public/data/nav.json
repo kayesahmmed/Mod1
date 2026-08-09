@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hero",
+    "label": "Home",
+    "href": "#hero",
+    "order": 0
+  },
+  {
+    "id": "features",
+    "label": "Features",
+    "href": "#features",
+    "order": 1
+  },
+  {
+    "id": "download",
+    "label": "Download",
+    "href": "#download",
+    "order": 2
+  },
+  {
+    "id": "faq",
+    "label": "FAQ",
+    "href": "#faq",
+    "order": 3
+  },
+  {
+    "id": "reviews",
+    "label": "Reviews",
+    "href": "#reviews",
+    "order": 4
+  }
+]

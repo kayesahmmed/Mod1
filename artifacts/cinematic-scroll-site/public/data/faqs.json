@@ -1,0 +1,32 @@
+[
+  {
+    "q": "Is ModX Lab safe to use?",
+    "a": "Yes! Our mod panel includes an advanced anti-ban system that keeps your account safe. We use encrypted injection methods and regular updates to bypass detection.",
+    "id": "static-faq-0",
+    "isFirestore": false
+  },
+  {
+    "q": "Which devices are supported?",
+    "a": "ModX Lab works on all Android devices running Android 7.0 (Nougat) or higher. Both Free Fire and Free Fire Max are supported.",
+    "id": "static-faq-1",
+    "isFirestore": false
+  },
+  {
+    "q": "How do I install the mod?",
+    "a": "Simply download the APK, enable 'Install from unknown sources' in your settings, install the APK, and open it before launching the game.",
+    "id": "static-faq-2",
+    "isFirestore": false
+  },
+  {
+    "q": "Is it free to use?",
+    "a": "Yes, ModX Lab is completely free! All features including drag headshot, holograms, ESP, and auto aim are included at no cost.",
+    "id": "static-faq-3",
+    "isFirestore": false
+  },
+  {
+    "q": "How often is it updated?",
+    "a": "We release updates within 24–48 hours after every Free Fire game update to ensure compatibility and undetectable performance.",
+    "id": "static-faq-4",
+    "isFirestore": false
+  }
+]

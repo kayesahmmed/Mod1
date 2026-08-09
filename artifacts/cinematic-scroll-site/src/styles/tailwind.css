@@ -1,0 +1,12 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+
+@theme {
+  --breakpoint-sm: 300px;
+  --breakpoint-md: 400px;
+  --breakpoint-lg: 500px;
+  --breakpoint-xl: 600px;
+  --breakpoint-2xl: 700px;
+}
